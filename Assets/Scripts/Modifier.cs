@@ -7,8 +7,7 @@ public class Modifier : MonoBehaviour
 {
     public Text targetText;
 
-    public void Modify()
+    public virtual void Modify()
     {
-        targetText.fontSize++;
     }
 }
